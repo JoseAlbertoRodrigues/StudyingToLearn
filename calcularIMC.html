@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando a sua Massa Corporal</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: rgb(70, 142, 236);
+            font: normal 16pt Arial;
+        }
+
+        header {
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        form {
+            background: white;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+            
+            border-radius: 1em;
+        
+            height: 70vh;
+            margin-right: .5em;
+            margin-left: .5em;
+            padding: 1em;
+            text-align: center;
+        }
+
+        form p {
+            margin-bottom: 1em;
+        }
+
+        div#peso {
+            background: red;
+            height: 5.5625em;
+        }
+        
+        div#altura {
+            background: gold;
+            height: 5.5625em;
+        }
+
+        input {
+            width: 265px;
+            height: 41px;
+            font-size: 1em;
+        }
+
+        footer {
+            align-items: center;
+            background: #a32f2f;
+            display: flex;
+            font-style: italic;
+            height: 10vh;
+            justify-content: center; 
+        }
+
+        footer p a {
+            color: white;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Calculando o IMC</h1>
+    </header>
+
+    <div class="container">
+        <form action="">
+            <p>Coloque os seus dados na calculadora a seguir e saiba qual é o seu IMC:</p>
+            <div id="peso">
+                <label>Peso:</label>
+                <div>
+                    <input type="number" name="peso" id="peso" placeholder="61.6">
+                </div>
+            </div>
+
+            <div id="altura">
+                <label>Altura:</label>
+                <div id="altura-altura">
+                    <input type="number" name="altura" id="altura" placeholder="1.6">
+                </div>
+            </div>
+
+            <div id="button">
+                <div id="btn-botao">
+                    <input type="button" value="verificar" onclick="calcular()">
+                </div>
+            </div>
+
+            <div id="result">
+                <h2>Resultado:</h2>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p><a href="https://github.com/JoseAlbertoRodrigues" target="_blank">Feito por José Alberto</a></p>
+    </footer>
+</body>
+</html>
