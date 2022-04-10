@@ -14,30 +14,28 @@
         }
 
         body {
-            /* background: rgb(70, 142, 236); */
+            background: rgb(70, 142, 236);
             font: normal 1.3em Arial;
         }
 
         header {
-            color: black; /* depois altera para o branco*/
+            color: white; /* depois altera para o branco*/
             text-align: center;
+            padding: .5em 0;
         }
 
         section {
-            background: black;
+            background: white;
             border-radius: 0.8em;
             box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); 
             padding: 1em;
-            margin-right: 1em;
-            margin-left: 1em;
+            margin: 1em;
         }
 
         div {
             text-align: center;
-            color: white;
             padding: 0.8em;
         }
-
 
         footer {
             align-items: center;
@@ -49,7 +47,6 @@
             
             position: relative;
             top: 2em;
-            bottom: 0;
         }
 
         footer p a {
@@ -65,7 +62,7 @@
         }
     </style>
 </head>
-<body>
+<body onload="initTime()">
     <header>
         <h1>Hora do Dia</h1>
     </header>
@@ -85,5 +82,7 @@
     <footer>
         <p><a href="https://github.com/JoseAlbertoRodrigues" target="_blank">Feito por José Alberto</a></p>
     </footer>
+
+    <script src="./javaScript/horaDoDia.js"></script>
 </body>
 </html>
