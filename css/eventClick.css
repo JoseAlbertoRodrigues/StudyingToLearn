@@ -1,0 +1,19 @@
+div#area {
+    background: black;
+    color: white;
+    font: normal 1.25em Arial;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    width: 200px;
+}
+
+div#fullScreen {
+    background: gold;
+    color: white;
+    font: normal 2em Arial;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    width: 100vw;
+}

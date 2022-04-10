@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 18pt Arial;
+}
+
+h1 {
+    background: gold;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0 ;
+}
+
+#button {
+    background: crimson;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 3em 0;
+}
+
+#button input {
+    font: normal 18pt Arial;
+    margin: 0 1em;
+    width: 110px;
+}
+
+#result {
+    background: cadetblue;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    text-align: center;
+}

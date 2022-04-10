@@ -6,61 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hora do Dia</title>
 
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background: rgb(70, 142, 236);
-            font: normal 1.3em Arial;
-        }
-
-        header {
-            color: white; /* depois altera para o branco*/
-            text-align: center;
-            padding: .5em 0;
-        }
-
-        section {
-            background: white;
-            border-radius: 0.8em;
-            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); 
-            padding: 1em;
-            margin: 1em;
-        }
-
-        div {
-            text-align: center;
-            padding: 0.8em;
-        }
-
-        footer {
-            align-items: center;
-            background: rgb(51, 51, 51);
-            display: flex;
-            font-style: italic;
-            height: 2.5em;
-            justify-content: center; 
-            
-            position: relative;
-            top: 2em;
-        }
-
-        footer p a {
-            color: white;
-            text-decoration: none;
-            transition: color .3s;
-        }
-
-        footer p a:hover {
-            color: gold;
-            font-size: 1.2em;
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/horaDoDia.css">
+    
 </head>
 <body onload="initTime()">
     <header>
@@ -73,8 +20,8 @@
                 Aqui vai a mensagem...
             </div>
 
-            <div id="image">
-                <img src="./assets/fotomanha.png" alt="Foto da manhã">
+            <div id="images">
+                <img id="image" src="./assets/fotomanha.png" alt="Foto da manhã">
             </div>
         </div>
     </section>

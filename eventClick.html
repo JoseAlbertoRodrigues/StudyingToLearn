@@ -6,28 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events DOM</title>
 
-    <style>
-        div#area {
-            background: black;
-            color: white;
-            font: normal 1.25em Arial;
-            height: 200px;
-            line-height: 200px;
-            text-align: center;
-            width: 200px;
-        }
-
-        div#fullScreen {
-            background: gold;
-            color: white;
-            font: normal 2em Arial;
-            height: 200px;
-            line-height: 200px;
-            text-align: center;
-            width: 100vw;
-        }
-
-    </style>
+    <link rel="stylesheet" href="./css/eventClick.css">
+    
 </head>
 <body>
     <div id="area">
@@ -38,51 +18,7 @@
         Full Screen
     </div>
 
-    <script>
-        // não é a melhor maneira utilizar aqui, mas como é para treinar fica mais fácil e pratico...
-        let a = document.getElementById('area')
-        let full = document.querySelector('#fullScreen')
-
-
-        a.addEventListener('click', clicar)
-        a.addEventListener('mouseenter', entrar)
-        a.addEventListener('mouseout', sair)
-        
-        full.addEventListener('mouseenter', mouseEnter)
-        full.addEventListener('mouseout', mouseOut)
-        full.addEventListener('click', clicou)
-        
-        
-        function clicar() {
-            a.innerText = "Clicou!" 
-            a.style.background = "pink"
-        }
-
-        function entrar() {
-            a.innerText = "Entrar!"
-            a.style.background = "green"
-        }
-
-        function sair() {
-            a.innerText = "Sair!"
-            a.style.background = "blue"
-        }
-
-        function mouseEnter() {
-            full.innerText = "Mouse Out"
-            full.style.background = "purple"
-        }
-        
-        function mouseOut() {
-            full.innerText = "Mouse Enter"
-            full.style.background = "red"
-        }
-        
-        function clicou() {
-            full.innerText = "Você clicou aqui!"
-            full.style.background = "gold"
-            full.style.fontSize = 3 + "em"        
-        }
-        </script>
+    <script src="./javaScript/eventClick.js"></script>
+   
     </body>
 </html>

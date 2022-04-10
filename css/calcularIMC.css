@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(70, 142, 236);
+    font: normal 16pt Arial;
+}
+
+header {
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+form {
+    background: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    
+    border-radius: 1em;
+
+    height: 100%;
+    margin-right: .5em;
+    margin-left: .5em;
+    padding: 1em;
+    text-align: center;
+}
+
+form p {
+    margin-bottom: 1em;
+}
+
+div#peso_p {
+    background: red;
+    height: 5.5625em;
+}
+
+div#altura_p {
+    background: gold;
+    height: 5.5625em;
+}
+
+input {
+    font-size: 1em;
+    height: 41px;
+    width: 265px;
+    margin: 1em 0;
+}
+
+footer {
+    align-items: center;
+    background: #a32f2f;
+    display: flex;
+    font-style: italic;
+    height: 2.5em;
+    justify-content: center; 
+}
+
+footer p a {
+    color: white;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+footer p a:hover {
+    color: gold;
+    font-size: 1.2em;
+    text-decoration: none;
+}
