@@ -39,3 +39,44 @@ section {
     justify-content: center;
     
 }
+
+#year {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 1em;
+}
+
+#year p {
+    margin-right: 1em;
+}
+
+#sexo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-bottom: 1em;
+}
+
+#sexo input {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#verificar {
+    padding: 1em 0;
+    text-align: center;
+}
+
+#verificar input {
+    background: orange;
+    border-radius: 2em;
+    border: none;
+    font-size: .8em;
+    padding: .6em 4em;
+    transition: 0.3s;
+}
+
+#verificar input:hover {
+    background: rgb(255, 115, 0);
+    color: white;
+}
