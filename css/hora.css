@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background: rgb(70, 142, 236); */
+    font: normal 1.3em Arial;
+    width: 100%;
+    height: 100%;
+} 
+
+img {
+    width: 100vw;
+    height: 100vh;
+}
+
+#fundo-externo {
+    display: flex;
+    position: relative;
+}
+
+#fundo #msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5.5em;
+}
+
+
+footer {
+    align-items: center;
+    background: rgb(51, 51, 51);
+    display: flex;
+    width: 100%;
+    font-style: italic;
+    height: 2.5em;
+    justify-content: center; 
+    
+    position: absolute;
+    bottom: 0;
+}
+
+footer p a {
+    color: white;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+footer p a:hover {
+    color: gold;
+    font-size: 1.2em;
+    text-decoration: none;
+}
