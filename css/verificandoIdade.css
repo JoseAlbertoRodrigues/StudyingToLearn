@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 1.3em Arial;
+}
+
+header {
+    background: chocolate;
+    padding: 1em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: lawngreen;
+}
+
+section {
+    background: rgb(70, 142, 236);
+    width: 100%;
+    padding: 2em 0;
+}
+
+.container {
+    background: white;
+    border-radius: 0.8em;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); 
+    padding: 1em;
+    margin: 0 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    
+}
