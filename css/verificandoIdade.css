@@ -62,12 +62,12 @@ section {
     margin-right: 1em;
 }
 
-#verificar {
+#checked {
     padding: 1em 0;
     text-align: center;
 }
 
-#verificar input {
+#checked input {
     background: orange;
     border-radius: 2em;
     border: none;
@@ -76,7 +76,7 @@ section {
     transition: 0.3s;
 }
 
-#verificar input:hover {
+#checked input:hover {
     background: rgb(255, 115, 0);
     color: white;
 }
