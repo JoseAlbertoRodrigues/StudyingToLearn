@@ -3,17 +3,18 @@ function verificar() {
     let ano = data.getFullYear()
     let formularioAno = document.querySelector('#txtano')
     let res = document.querySelector('div#result')
+    
     if (formularioAno.value.length == 0 || Number(formularioAno.value) > ano ) {
         alert('[ERRO] Verifique os dados e tente novamente!')
     } else {
-        var fsex = document.getElementsByName('radsex') // posição do sexo [0][1]
-        var idade = ano - Number(formularioAno.value)
+        let fsex = document.getElementsByName('radsex') // posição do sexo [0][1]
+        let idade = ano - Number(formularioAno.value)
 
         // Criando um atributo para o elemento <img>
-        var img = document.createElement('img')
+        let img = document.createElement('img')
         img.setAttribute('id', 'foto')
 
-        var genero = ''
+        let genero = ''
         if (fsex[0].checked) { // SEXO Masculino
             genero = 'Homem'
             if (idade >= 0 && idade < 10) {
