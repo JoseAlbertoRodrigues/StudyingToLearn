@@ -24,3 +24,41 @@ header {
 header h1 {
     color: white;
 }
+
+section {
+    background: rgb(101, 165, 248);
+    padding: 2em 1em;
+}
+
+.container {
+    background: white;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#dados input {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    font-size: .8em;
+}
+
+input#checked {
+    background: rgb(97, 94, 253);
+    border: none;
+    border-radius: 1em;
+    color: white;
+    padding: .5em 1.5em;
+    text-align: center;
+    transition: .3s;
+}
+
+input#checked:hover {
+    background: rgb(30, 26, 248);
+    color: white;
+}
