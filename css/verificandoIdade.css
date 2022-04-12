@@ -105,4 +105,6 @@ footer p a {
 
 footer p a:hover {
     color: gold;
-    bac
+    font-size: 1.2em;
+    text-decoration: none;
+}
