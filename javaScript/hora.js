@@ -26,7 +26,9 @@ function carregar() {
     } else {
         // Noite
         // img.src = './assets/fotonoite.png'
-        document.body.style.background = '#515154'
+        // document.body.style.background = '#515154'
+        img.src = "https://images.unsplash.com/photo-1565192167286-5d4298f23aed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=830&q=80"
+        
     }
 }
 
