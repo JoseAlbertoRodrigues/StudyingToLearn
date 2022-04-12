@@ -21,7 +21,7 @@ header {
 }
 
 header h1 {
-    color: rgb(64, 92, 151);
+    color: white;
 }
 
 section {
@@ -51,6 +51,26 @@ section {
 
 #inicio p , #fim p, #passo p {
     margin-right: 1em;
+}
+
+#checked {
+    padding: 1em 0;
+    text-align: center;
+}
+
+#checked input {
+    background: rgb(78, 72, 224);
+    border: none;
+    border-radius: 1.2em;
+    color: white;
+    padding: .5em 3em;
+    font-size: 1em;
+    transition: .3s;
+}
+
+#checked input:hover {
+    background: rgb(28, 21, 226);
+    color: rgb(243, 183, 161)
 }
 
 footer {
