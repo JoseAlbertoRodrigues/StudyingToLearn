@@ -62,3 +62,24 @@ input#checked:hover {
     background: rgb(30, 26, 248);
     color: white;
 }
+
+footer {
+    align-items: center;
+    background: rgb(51, 51, 51);
+    display: flex;
+    font-style: italic;
+    height: 2.5em;
+    justify-content: center; 
+}
+
+footer p a {
+    color: white;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+footer p a:hover {
+    color: gold;
+    font-size: 1.2em;
+    text-decoration: none;
+}
