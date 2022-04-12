@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 1.3em Arial;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: coral;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(64, 92, 151);
+}
+
+section {
+    background: rgb(30, 28, 94);
+
+    padding: 2em 1em;
+}
+
+.container {
+    background: white;
+    border-radius: 1em;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    padding: 1em;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#inicio,
+#fim,
+#passo {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 1em;
+}
+
+#inicio p , #fim p, #passo p {
+    margin-right: 1em;
+}
