@@ -62,3 +62,32 @@ section {
 #dados input#adicionar:hover {
     background: rgb(252, 0, 97);
 }
+
+#lista {
+    border-radius: 1em;
+}
+
+select#flista {
+    width: 100%;
+}
+
+#lista input#finalizar {
+    background: rgb(255, 0, 140);
+    border: none;
+    border-radius: 1em;
+    color: gold;
+    font-size: 1.2em;
+    
+    margin: 1em 0;
+    padding: .5em 0;
+    
+    text-align: center;
+    transition: .3s;
+    width: 100%;
+}
+
+#lista input#finalizar:hover {
+    background: rgb(231, 27, 139);
+    color: rgb(0, 255, 170);
+    opacity: .8;
+}
