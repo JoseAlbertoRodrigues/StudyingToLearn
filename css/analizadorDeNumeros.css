@@ -91,3 +91,24 @@ select#flista {
     color: rgb(0, 255, 170);
     opacity: .8;
 }
+
+footer {
+    align-items: center;
+    background: black;
+    display: flex;
+    font-style: italic;
+    height: 4em;
+    justify-content: center; 
+}
+
+footer p a {
+    color: white;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+footer p a:hover {
+    color: gold;
+    font-size: 1.2em;
+    text-decoration: none;
+}
