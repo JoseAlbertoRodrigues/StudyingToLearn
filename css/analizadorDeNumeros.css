@@ -24,3 +24,41 @@ header h1 {
     color: rgb(133, 1, 1);
 }
 
+section {
+    background: rgb(233, 3, 137);
+    padding: 2em 1em;
+}
+
+.container {
+    background: white;
+    border-radius: 1em;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#dados p {
+    color: blue;
+    font-size: 1.2em;
+}
+
+#dados input {
+    font-size: .8em;
+    margin: 2em 1em 2em 0;
+}
+
+#dados input#adicionar {
+    background: red;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    padding: .6em 2em;
+    text-align: center;
+    transition: .3s;
+}
+
+#dados input#adicionar:hover {
+    background: rgb(252, 0, 97);
+}
